@@ -29,7 +29,7 @@ mysql:
 spring:
   # Spring JDBC configuration
   datasource:
-    url:      jdbc:mysql://localhost:3306/${mysql.service.database}
+    url:      jdbc:mysql://mysql/${mysql.service.database}
     username: ${mysql.service.username}
     password: ${mysql.service.password}
 
