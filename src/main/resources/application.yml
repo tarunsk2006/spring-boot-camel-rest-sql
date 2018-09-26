@@ -29,6 +29,7 @@ mysql:
 spring:
   # Spring JDBC configuration
   datasource:
+    driverClassName: com.mysql.jdbc.Driver
     url:      jdbc:mysql://mysql/${mysql.service.database}
     username: ${mysql.service.username}
     password: ${mysql.service.password}
